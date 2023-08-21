@@ -19,7 +19,7 @@ fim-para
 escreva Não encontrei x
 fim
 7 - ler x
-para cada número enre 2 e x-1, faça:
+para cada número entre 2 e x-1, faça:
 se o resto da divisão entre x e número for 0, então:
 escreva x não é primo
 fim
