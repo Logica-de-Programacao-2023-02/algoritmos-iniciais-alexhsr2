@@ -8,3 +8,35 @@ para cada elemento da lista :
 soma = soma + elemento
 média = soma / quantidade
 escreva média
+ 5 - ler lista
+ler x 
+para cada eemento da lista faça:
+se elemento é igual a x, então:
+escreva Encontrei x
+fim
+fim-se
+fim-para
+escreva Não encontrei x
+fim
+7 - ler x
+para cada número enre 2 e x-1, faça:
+se o resto da divisão entre x e número for 0, então:
+escreva x não é primo
+fim
+9 - ler capital
+ler taxa_juros
+ler tempo
+x= 1 + taxa_juros
+para cada elemento entre 1  tempo faça:
+x = x * x
+M = capital * x
+escreva M
+10 - ler lista_pesos
+var soma = 0
+para cada número da lista_valores, faça:
+soma = soma + (número * peso_respectivo)
+var soma_peso = 0
+para cada número da lista_peso, faça:
+soma_peso = soma_peso + número
+média = soma / soma_peso
+escreva média
