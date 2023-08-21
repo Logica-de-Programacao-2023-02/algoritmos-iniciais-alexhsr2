@@ -10,7 +10,7 @@ média = soma / quantidade
 escreva média
  5 - ler lista
 ler x 
-para cada eemento da lista faça:
+para cada elemento da lista faça:
 se elemento é igual a x, então:
 escreva Encontrei x
 fim
@@ -27,7 +27,7 @@ fim
 ler taxa_juros
 ler tempo
 x= 1 + taxa_juros
-para cada elemento entre 1  tempo faça:
+para cada elemento entre 1 tempo faça:
 x = x * x
 M = capital * x
 escreva M
