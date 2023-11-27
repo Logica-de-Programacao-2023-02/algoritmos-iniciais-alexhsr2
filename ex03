@@ -1,6 +1,17 @@
 1 - leia c
 leia d
 escreva c + d
+
+2-Leia temperatura
+2: Leia unidade
+3: se unidade = C, então:
+ F = (C * 1.8) + 32 
+escreva F
+se unidade = F, então:
+ C = (F + 32) / 1.8
+    escreva C
+fim
+
 3 - leia lista
 leia quantidade
 var soma = = 0
@@ -8,6 +19,13 @@ para cada elemento da lista :
 soma = soma + elemento
 média = soma / quantidade
 escreva média
+
+4- Leia B
+var fatorial = 1
+Para cada número antes a B
+multiplique número a var fatorial
+escreva o resultado da multiplicação
+
  5 - ler lista
 ler x 
 para cada elemento da lista faça:
@@ -18,11 +36,34 @@ fim-se
 fim-para
 escreva Não encontrei x
 fim
+
+6- !MANEIRA FÁCIL!
+Leia C
+Leia D
+resultado = (C*D)
+escreva resultado
+
+!MANEIRA LEGAL!
+Leia C
+Leia potência
+SE potência igual a 0 
+entao escreva 1
+senao enquanto potencia >1
+resultado = C* C
+potencia = potencia -1
+fim-senao
+
 7 - ler x
 para cada número entre 2 e x-1, faça:
 se o resto da divisão entre x e número for 0, então:
 escreva x não é primo
 fim
+
+8- leia b
+leia a
+area = (b* a)/2
+escreva area
+
 9 - ler capital
 ler taxa_juros
 ler tempo
@@ -31,6 +72,7 @@ para cada elemento entre 1 tempo faça:
 x = x * x
 M = capital * x
 escreva M
+
 10 - ler lista_pesos
 var soma = 0
 para cada número da lista_valores, faça:
